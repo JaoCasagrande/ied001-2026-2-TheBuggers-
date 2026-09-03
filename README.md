@@ -29,3 +29,5 @@ Sprint 00 — Setup inicial
 
 ## Estruturas de Dados
 (nenhuma definida ainda — será incorporada conforme o conteúdo avançar)
+
+Teste de edição - João
