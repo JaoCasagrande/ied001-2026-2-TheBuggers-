@@ -1,0 +1,6 @@
+=== LISTAGEM ===
+{'id': 1, 'titulo': 'Impressora não imprime', 'descricao': 'A impressora do setor financeiro não responde.', 'prioridade': 'Média', 'status': 'Aberto', 'solicitante': 'Ana Souza'}
+{'id': 2, 'titulo': 'Sistema de login fora do ar', 'descricao': 'Usuários não conseguem autenticar no sistema interno.', 'prioridade': 'Alta', 'status': 'Em andamento', 'solicitante': 'Carlos Lima'}
+{'id': 3, 'titulo': 'Solicitação de novo monitor', 'descricao': 'Monitor atual apresenta falhas de imagem.', 'prioridade': 'Baixa', 'status': 'Resolvido', 'solicitante': 'Beatriz Alves'}
+=== BUSCA ===
+{'id': 2, 'titulo': 'Sistema de login fora do ar', 'descricao': 'Usuários não conseguem autenticar no sistema interno.', 'prioridade': 'Alta', 'status': 'Em andamento', 'solicitante': 'Carlos Lima'}
