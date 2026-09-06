@@ -1,33 +1,26 @@
-# ied001-2026-2-TheBuggers-
 # Central de Chamados de Suporte
 
-## Tema e problema-base
-Sistema para gerenciar solicitações de suporte: abrir, consultar, 
-acompanhar status e priorizar chamados.
+## Grupo
+- PM: Elizeu Ribeiro
+- Tech Lead: João Victor de Oliveira Nunes Casagrande
+- Team Members: Gabriella Galdino Araujo, Sana Soraes Hachem, Caroline de Farias
 
-## Integrantes
-| Integrante | Papel |
-|-------------|-------|
-| Nome: ELIZEU RIBEIRO | PM  
-| Nome: JOÃO VICTOR DE OLIVEIRA NUNES CASAGRANDE| Tech Lead  
-| Nome: GABRIELLA GALDINO ARAUJO | Team Member  
-| Nome: SANA SORAES HACHEM | Team Member  
-| Nome: CAROLINE DE FARIAS   | Team Member  
+## Problema
+Sistema para abertura, acompanhamento e gestão de chamados de suporte técnico,
+com dois perfis de usuário (administrador e usuário final), permitindo registrar
+solicitações, consultar status e organizar chamados por prioridade.
 
-## Objetivo
-Permitir que usuários abram chamados de suporte e que a equipe 
-acompanhe e resolva esses chamados de forma organizada.
+## Entidade do primeiro incremento
+Chamado - representa uma solicitação de suporte aberta por um usuário, com
+título, descrição, prioridade, status e solicitante.
 
-## Escopo atual
-Definindo o escopo inicial (Sprint 01).
+## Executar Python
+python src/python/main.py
+
+## Compilar e executar C
+mkdir build
+gcc -Wall -Wextra -std=c17 src/c/main.c -o build/main.exe
+./build/main.exe
 
 ## Sprint atual
-Sprint 00 — Setup inicial
-
-## Como executar
-(em construção)
-
-## Estruturas de Dados
-(nenhuma definida ainda — será incorporada conforme o conteúdo avançar)
-
-
+Sprint 01 - Setup inicial e primeiro incremento executável (entidade Chamado).
